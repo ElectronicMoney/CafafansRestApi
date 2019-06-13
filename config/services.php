@@ -5,9 +5,9 @@
  * @return string $base_uri
  */
 return [
-    'api_gateway' =>  [
-        'base_uri'  => env('API_GATEWAY_BASE_URL'),
-        'api_gateway_token' => env('API_GATEWAY_TOKEN'),
+    'example_service' =>  [
+        'base_uri'  => env('EXAMPLE_SERVICE_BASE_URL'),
+        'api_access_token' => env('API_ACCESS_TOKEN'),
     ]
 ];
 

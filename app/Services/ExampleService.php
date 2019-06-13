@@ -19,7 +19,7 @@ class  ExampleService
      * @return void
      */
     public function __construct() {
-        $this->baseUri = config('services.examples.base_uri');
+        $this->baseUri = config('services.example_service.base_uri');
     }
 
     /**

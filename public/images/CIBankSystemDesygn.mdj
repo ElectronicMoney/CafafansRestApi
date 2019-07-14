@@ -1,0 +1,1873 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"defaultDiagram": true
+				}
+			]
+		},
+		{
+			"_type": "FCFlowchart",
+			"_id": "AAAAAAFrll3a+puUuc4=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Flowchart1",
+			"ownedElements": [
+				{
+					"_type": "FCFlowchartDiagram",
+					"_id": "AAAAAAFrll3a+puViC8=",
+					"_parent": {
+						"$ref": "AAAAAAFrll3a+puUuc4="
+					},
+					"name": "FlowchartDiagram1",
+					"ownedViews": [
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFrnFdPaoyTiIw=",
+							"_parent": {
+								"$ref": "AAAAAAFrll3a+puViC8="
+							},
+							"model": {
+								"$ref": "AAAAAAFrnFdPaoyRqEU="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFrnFdPaoyUONA=",
+									"_parent": {
+										"$ref": "AAAAAAFrnFdPaoyTiIw="
+									},
+									"font": "Arial;13;0",
+									"left": 346,
+									"top": 106,
+									"width": 980,
+									"height": 13,
+									"text": "Process1",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 336,
+							"top": 96,
+							"width": 1000,
+							"height": 784,
+							"nameLabel": {
+								"$ref": "AAAAAAFrnFdPaoyUONA="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFrnDeGrotQoOI=",
+							"_parent": {
+								"$ref": "AAAAAAFrll3a+puViC8="
+							},
+							"model": {
+								"$ref": "AAAAAAFrnDeGrotOTxg="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFrnDeGrotRQXc=",
+									"_parent": {
+										"$ref": "AAAAAAFrnDeGrotQoOI="
+									},
+									"model": {
+										"$ref": "AAAAAAFrnDeGrotOTxg="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 490,
+									"top": 501,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFrnDeGrotQoOI="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFrnDbNzYs4qus="
+							},
+							"tail": {
+								"$ref": "AAAAAAFrl2cBZKZzjbE="
+							},
+							"lineStyle": 2,
+							"points": "476:472;476:544",
+							"nameLabel": {
+								"$ref": "AAAAAAFrnDeGrotRQXc="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFrnC1Cc4rIpc8=",
+							"_parent": {
+								"$ref": "AAAAAAFrll3a+puViC8="
+							},
+							"model": {
+								"$ref": "AAAAAAFrnC1CcorGi5Y="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFrnC1Cc4rJeho=",
+									"_parent": {
+										"$ref": "AAAAAAFrnC1Cc4rIpc8="
+									},
+									"model": {
+										"$ref": "AAAAAAFrnC1CcorGi5Y="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 838,
+									"top": 489,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFrnC1Cc4rIpc8="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFrlvy79aRHcyE="
+							},
+							"tail": {
+								"$ref": "AAAAAAFrlpKSNp8udtI="
+							},
+							"lineStyle": 2,
+							"points": "824:464;824:528",
+							"nameLabel": {
+								"$ref": "AAAAAAFrnC1Cc4rJeho="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFrlp7G/Z/QLwQ=",
+							"_parent": {
+								"$ref": "AAAAAAFrll3a+puViC8="
+							},
+							"model": {
+								"$ref": "AAAAAAFrlp7G/J/O5ws="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFrlp7G/Z/RKE4=",
+									"_parent": {
+										"$ref": "AAAAAAFrlp7G/Z/QLwQ="
+									},
+									"font": "Arial;13;0",
+									"left": 1050,
+									"top": 538,
+									"width": 221,
+									"height": 13,
+									"text": "PaymentNotification",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 1040,
+							"top": 528,
+							"width": 241,
+							"height": 249,
+							"nameLabel": {
+								"$ref": "AAAAAAFrlp7G/Z/RKE4="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFrlvy79aRHcyE=",
+							"_parent": {
+								"$ref": "AAAAAAFrll3a+puViC8="
+							},
+							"model": {
+								"$ref": "AAAAAAFrlvy79KRFNOY="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFrlvy79aRIhEY=",
+									"_parent": {
+										"$ref": "AAAAAAFrlvy79aRHcyE="
+									},
+									"fillColor": "#a3ffd1",
+									"font": "Arial;13;0",
+									"left": 730,
+									"top": 538,
+									"width": 196,
+									"height": 13,
+									"text": "CIBankPaymentProcessor",
+									"wordWrap": true
+								}
+							],
+							"fillColor": "#a3ffd1",
+							"font": "Arial;13;0",
+							"left": 720,
+							"top": 528,
+							"width": 216,
+							"height": 144,
+							"nameLabel": {
+								"$ref": "AAAAAAFrlvy79aRIhEY="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFrlnRGkZ1HQHE=",
+							"_parent": {
+								"$ref": "AAAAAAFrll3a+puViC8="
+							},
+							"model": {
+								"$ref": "AAAAAAFrlnRGkZ1Frck="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFrlnRGkZ1Izbw=",
+									"_parent": {
+										"$ref": "AAAAAAFrlnRGkZ1HQHE="
+									},
+									"fillColor": "#6dff6d",
+									"font": "Arial;13;0",
+									"left": 1058,
+									"top": 586,
+									"width": 209.6796875,
+									"height": 13,
+									"text": "SendPaymentPendingNotification",
+									"wordWrap": true
+								}
+							],
+							"fillColor": "#6dff6d",
+							"font": "Arial;13;0",
+							"left": 1048,
+							"top": 576,
+							"width": 229.6796875,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAFrlnRGkZ1Izbw="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFrloxOWp6sxuM=",
+							"_parent": {
+								"$ref": "AAAAAAFrll3a+puViC8="
+							},
+							"model": {
+								"$ref": "AAAAAAFrloxOWZ6qjXc="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFrloxOWp6tHwk=",
+									"_parent": {
+										"$ref": "AAAAAAFrloxOWp6sxuM="
+									},
+									"fillColor": "#d1ffa3",
+									"font": "Arial;13;0",
+									"left": 410,
+									"top": 178,
+									"width": 861,
+									"height": 13,
+									"text": "CIBankPaymentGateway",
+									"wordWrap": true
+								}
+							],
+							"fillColor": "#d1ffa3",
+							"font": "Arial;13;0",
+							"left": 400,
+							"top": 168,
+							"width": 881,
+							"height": 121,
+							"nameLabel": {
+								"$ref": "AAAAAAFrloxOWp6tHwk="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFrlpKSNp8udtI=",
+							"_parent": {
+								"$ref": "AAAAAAFrll3a+puViC8="
+							},
+							"model": {
+								"$ref": "AAAAAAFrlpKSNZ8sqEQ="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFrlpKSNp8vQcg=",
+									"_parent": {
+										"$ref": "AAAAAAFrlpKSNp8udtI="
+									},
+									"lineColor": "#0d0d0c",
+									"fillColor": "#f7f798",
+									"font": "Arial;13;0",
+									"left": 738,
+									"top": 354,
+									"width": 173,
+									"height": 13,
+									"text": "PaymentChargeCompleted",
+									"wordWrap": true
+								}
+							],
+							"lineColor": "#0d0d0c",
+							"fillColor": "#f7f798",
+							"font": "Arial;13;0",
+							"left": 728,
+							"top": 344,
+							"width": 193,
+							"height": 121,
+							"nameLabel": {
+								"$ref": "AAAAAAFrlpKSNp8vQcg="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFrlqdnIp/ehBs=",
+							"_parent": {
+								"$ref": "AAAAAAFrll3a+puViC8="
+							},
+							"model": {
+								"$ref": "AAAAAAFrlqdnIp/c404="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFrlqdnIp/fwng=",
+									"_parent": {
+										"$ref": "AAAAAAFrlqdnIp/ehBs="
+									},
+									"fillColor": "#f7f798",
+									"font": "Arial;13;0",
+									"left": 1106,
+									"top": 354,
+									"width": 165,
+									"height": 13,
+									"text": "PaymentChargeFailed",
+									"wordWrap": true
+								}
+							],
+							"fillColor": "#f7f798",
+							"font": "Arial;13;0",
+							"left": 1096,
+							"top": 344,
+							"width": 185,
+							"height": 128,
+							"nameLabel": {
+								"$ref": "AAAAAAFrlqdnIp/fwng="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFrlsINO6CR7NA=",
+							"_parent": {
+								"$ref": "AAAAAAFrll3a+puViC8="
+							},
+							"model": {
+								"$ref": "AAAAAAFrlsINO6CPJmM="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFrlsINO6CSByU=",
+									"_parent": {
+										"$ref": "AAAAAAFrlsINO6CR7NA="
+									},
+									"fillColor": "#ff7f00",
+									"font": "Arial;13;0",
+									"left": 754,
+									"top": 466,
+									"width": 136.8046875,
+									"height": 13,
+									"text": "PaymentChargeEvent",
+									"wordWrap": true
+								}
+							],
+							"fillColor": "#ff7f00",
+							"font": "Arial;13;0",
+							"left": 744,
+							"top": 456,
+							"width": 156.8046875,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAFrlsINO6CSByU="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFrlsIlUaChqqA=",
+							"_parent": {
+								"$ref": "AAAAAAFrll3a+puViC8="
+							},
+							"model": {
+								"$ref": "AAAAAAFrlsIlUaCfILY="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFrlsIlUaCi8kw=",
+									"_parent": {
+										"$ref": "AAAAAAFrlsIlUaChqqA="
+									},
+									"fillColor": "#6dff6d",
+									"font": "Arial;13;0",
+									"left": 1058,
+									"top": 714,
+									"width": 208.837890625,
+									"height": 13,
+									"text": "SendPaymentCompletedNotification",
+									"wordWrap": true
+								}
+							],
+							"fillColor": "#6dff6d",
+							"font": "Arial;13;0",
+							"left": 1048,
+							"top": 704,
+							"width": 228.837890625,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAFrlsIlUaCi8kw="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFrlwAACaRk2nY=",
+							"_parent": {
+								"$ref": "AAAAAAFrll3a+puViC8="
+							},
+							"model": {
+								"$ref": "AAAAAAFrlwAACKRiClk="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFrlwAACaRlBro=",
+									"_parent": {
+										"$ref": "AAAAAAFrlwAACaRk2nY="
+									},
+									"fontColor": "#000070",
+									"font": "Arial;24;0",
+									"left": 498,
+									"top": 106,
+									"width": 661,
+									"height": 24,
+									"text": "CIBANK PAYMENT PROCESSOR SYSTEM DESYGN",
+									"wordWrap": true
+								}
+							],
+							"fontColor": "#000070",
+							"font": "Arial;24;0",
+							"left": 488,
+							"top": 96,
+							"width": 681,
+							"height": 44,
+							"nameLabel": {
+								"$ref": "AAAAAAFrlwAACaRlBro="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFrl2cBZKZzjbE=",
+							"_parent": {
+								"$ref": "AAAAAAFrll3a+puViC8="
+							},
+							"model": {
+								"$ref": "AAAAAAFrl2cBZKZxiXk="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFrl2cBZKZ0F6I=",
+									"_parent": {
+										"$ref": "AAAAAAFrl2cBZKZzjbE="
+									},
+									"fillColor": "#f7f798",
+									"font": "Arial;13;0",
+									"left": 394,
+									"top": 362,
+									"width": 182.81884765625,
+									"height": 13,
+									"text": "CryptoPaymentPayloadCreated",
+									"wordWrap": true
+								}
+							],
+							"fillColor": "#f7f798",
+							"font": "Arial;13;0",
+							"left": 384,
+							"top": 352,
+							"width": 202.81884765625,
+							"height": 121,
+							"nameLabel": {
+								"$ref": "AAAAAAFrl2cBZKZ0F6I="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFrl3cNt6b4Uo4=",
+							"_parent": {
+								"$ref": "AAAAAAFrll3a+puViC8="
+							},
+							"model": {
+								"$ref": "AAAAAAFrl3cNtqb2ucE="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFrl3cNt6b5DUo=",
+									"_parent": {
+										"$ref": "AAAAAAFrl3cNt6b4Uo4="
+									},
+									"fillColor": "#6dff6d",
+									"font": "Arial;13;0",
+									"left": 1058,
+									"top": 650,
+									"width": 205,
+									"height": 13,
+									"text": "SendPaymentFailedNotification",
+									"wordWrap": true
+								}
+							],
+							"fillColor": "#6dff6d",
+							"font": "Arial;13;0",
+							"left": 1048,
+							"top": 640,
+							"width": 225,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAFrl3cNt6b5DUo="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFrmIuflKnSzAk=",
+							"_parent": {
+								"$ref": "AAAAAAFrll3a+puViC8="
+							},
+							"model": {
+								"$ref": "AAAAAAFrmIufk6nQ+rc="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFrmIuflKnT6gc=",
+									"_parent": {
+										"$ref": "AAAAAAFrmIuflKnSzAk="
+									},
+									"fillColor": "#ffaa56",
+									"font": "Arial;13;0",
+									"left": 1234,
+									"top": 210,
+									"width": 67.18359375,
+									"height": 26,
+									"text": "COINBASE ADAPTER",
+									"wordWrap": true
+								}
+							],
+							"fillColor": "#ffaa56",
+							"font": "Arial;13;0",
+							"left": 1224,
+							"top": 200,
+							"width": 87.18359375,
+							"height": 49,
+							"nameLabel": {
+								"$ref": "AAAAAAFrmIuflKnT6gc="
+							}
+						},
+						{
+							"_type": "FCDecisionView",
+							"_id": "AAAAAAFrmKONeKrB8Gc=",
+							"_parent": {
+								"$ref": "AAAAAAFrll3a+puViC8="
+							},
+							"model": {
+								"$ref": "AAAAAAFrmKONd6q/t6s="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFrmKONeKrCKj0=",
+									"_parent": {
+										"$ref": "AAAAAAFrmKONeKrB8Gc="
+									},
+									"fillColor": "#a3ffd1",
+									"font": "Arial;13;0",
+									"left": 240,
+									"top": 1554,
+									"width": 80,
+									"height": 52,
+									"text": "Confirmed OR Delayed",
+									"wordWrap": true
+								}
+							],
+							"fillColor": "#a3ffd1",
+							"font": "Arial;13;0",
+							"left": 200,
+							"top": 1528,
+							"width": 160,
+							"height": 104,
+							"nameLabel": {
+								"$ref": "AAAAAAFrmKONeKrCKj0="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFrlpjNZ5+XFdo=",
+							"_parent": {
+								"$ref": "AAAAAAFrll3a+puViC8="
+							},
+							"model": {
+								"$ref": "AAAAAAFrlpjNZp+VvQs="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFrlpjNZ5+Yp7I=",
+									"_parent": {
+										"$ref": "AAAAAAFrlpjNZ5+XFdo="
+									},
+									"fillColor": "#ff7f00",
+									"font": "Arial;13;0",
+									"left": 410,
+									"top": 466,
+									"width": 127.181640625,
+									"height": 13,
+									"text": "PaymentChargeEvent",
+									"wordWrap": true
+								}
+							],
+							"fillColor": "#ff7f00",
+							"font": "Arial;13;0",
+							"left": 400,
+							"top": 456,
+							"width": 147.181640625,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAFrlpjNZ5+Yp7I="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFrnCvCbop2WS8=",
+							"_parent": {
+								"$ref": "AAAAAAFrll3a+puViC8="
+							},
+							"model": {
+								"$ref": "AAAAAAFrnCvCbYp05zA="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFrnCvCbop3k4Y=",
+									"_parent": {
+										"$ref": "AAAAAAFrnCvCbop2WS8="
+									},
+									"model": {
+										"$ref": "AAAAAAFrnCvCbYp05zA="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 486,
+									"top": 313,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFrnCvCbop2WS8="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFrl2cBZKZzjbE="
+							},
+							"tail": {
+								"$ref": "AAAAAAFrloxOWp6sxuM="
+							},
+							"lineStyle": 2,
+							"points": "472:288;472:352",
+							"nameLabel": {
+								"$ref": "AAAAAAFrnCvCbop3k4Y="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFrnCvNN4p/32Y=",
+							"_parent": {
+								"$ref": "AAAAAAFrll3a+puViC8="
+							},
+							"model": {
+								"$ref": "AAAAAAFrnCvNNYp9efA="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFrnCvNN4qA+zA=",
+									"_parent": {
+										"$ref": "AAAAAAFrnCvNN4p/32Y="
+									},
+									"model": {
+										"$ref": "AAAAAAFrnCvNNYp9efA="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 830,
+									"top": 309,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFrnCvNN4p/32Y="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFrlpKSNp8udtI="
+							},
+							"tail": {
+								"$ref": "AAAAAAFrloxOWp6sxuM="
+							},
+							"lineStyle": 2,
+							"points": "816:288;816:344",
+							"nameLabel": {
+								"$ref": "AAAAAAFrnCvNN4qA+zA="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFrnCva1oqR7Nc=",
+							"_parent": {
+								"$ref": "AAAAAAFrll3a+puViC8="
+							},
+							"model": {
+								"$ref": "AAAAAAFrnCva1YqPGwo="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFrnCva1oqSrcI=",
+									"_parent": {
+										"$ref": "AAAAAAFrnCva1oqR7Nc="
+									},
+									"model": {
+										"$ref": "AAAAAAFrnCva1YqPGwo="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 1190,
+									"top": 309,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFrnCva1oqR7Nc="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFrlqdnIp/ehBs="
+							},
+							"tail": {
+								"$ref": "AAAAAAFrloxOWp6sxuM="
+							},
+							"lineStyle": 2,
+							"points": "1176:288;1176:344",
+							"nameLabel": {
+								"$ref": "AAAAAAFrnCva1oqSrcI="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFrnC3cpYrk1xs=",
+							"_parent": {
+								"$ref": "AAAAAAFrll3a+puViC8="
+							},
+							"model": {
+								"$ref": "AAAAAAFrnC3cpYri+94="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFrnC3cpYrlNeI=",
+									"_parent": {
+										"$ref": "AAAAAAFrnC3cpYrk1xs="
+									},
+									"font": "Arial;13;0",
+									"left": 746,
+									"top": 578,
+									"width": 165.69921875,
+									"height": 13,
+									"text": "ProcessPaymentTransaction",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 736,
+							"top": 568,
+							"width": 185.69921875,
+							"height": 81,
+							"nameLabel": {
+								"$ref": "AAAAAAFrnC3cpYrlNeI="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFrnDbNzYs4qus=",
+							"_parent": {
+								"$ref": "AAAAAAFrll3a+puViC8="
+							},
+							"model": {
+								"$ref": "AAAAAAFrnDbNzIs24yo="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFrnDbNzYs5jVs=",
+									"_parent": {
+										"$ref": "AAAAAAFrnDbNzYs4qus="
+									},
+									"font": "Arial;13;0",
+									"left": 402,
+									"top": 554,
+									"width": 157.75830078125,
+									"height": 13,
+									"text": "CreatePaymentTransaction",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 392,
+							"top": 544,
+							"width": 177.75830078125,
+							"height": 104,
+							"nameLabel": {
+								"$ref": "AAAAAAFrnDbNzYs5jVs="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFrnDq1q4tq5yo=",
+							"_parent": {
+								"$ref": "AAAAAAFrll3a+puViC8="
+							},
+							"model": {
+								"$ref": "AAAAAAFrnDq1q4toT1s="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFrnDq1q4trUOY=",
+									"_parent": {
+										"$ref": "AAAAAAFrnDq1q4tq5yo="
+									},
+									"model": {
+										"$ref": "AAAAAAFrnDq1q4toT1s="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 1023,
+									"top": 497,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFrnDq1q4tq5yo="
+									},
+									"edgePosition": 1
+								}
+							],
+							"lineColor": "#a00000",
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFrl3cNt6b4Uo4="
+							},
+							"tail": {
+								"$ref": "AAAAAAFrlqdnIp/ehBs="
+							},
+							"lineStyle": 2,
+							"points": "1184:471;1184:504;1008:504;1008:656;1048:656",
+							"nameLabel": {
+								"$ref": "AAAAAAFrnDq1q4trUOY="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFrnDr8XYt8CMA=",
+							"_parent": {
+								"$ref": "AAAAAAFrll3a+puViC8="
+							},
+							"model": {
+								"$ref": "AAAAAAFrnDr8XYt64+8="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFrnDr8XYt9z5s=",
+									"_parent": {
+										"$ref": "AAAAAAFrnDr8XYt8CMA="
+									},
+									"model": {
+										"$ref": "AAAAAAFrnDr8XYt64+8="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 1281,
+									"top": 849,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFrnDr8XYt8CMA="
+									},
+									"edgePosition": 1
+								}
+							],
+							"lineColor": "#969600",
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFrlnRGkZ1HQHE="
+							},
+							"tail": {
+								"$ref": "AAAAAAFrnDbNzYs4qus="
+							},
+							"lineStyle": 2,
+							"points": "472:647;472:856;1296:856;1296:592;1277:592",
+							"nameLabel": {
+								"$ref": "AAAAAAFrnDr8XYt9z5s="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFrl2uYq6ao8QE=",
+							"_parent": {
+								"$ref": "AAAAAAFrll3a+puViC8="
+							},
+							"model": {
+								"$ref": "AAAAAAFrl2uYq6am+jI="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFrl2uYq6apqg8=",
+									"_parent": {
+										"$ref": "AAAAAAFrl2uYq6ao8QE="
+									},
+									"fillColor": "#00ff00",
+									"font": "Arial;13;0",
+									"left": 754,
+									"top": 634,
+									"width": 140.18798828125,
+									"height": 13,
+									"text": "PaymentChargeListener",
+									"wordWrap": true
+								}
+							],
+							"fillColor": "#00ff00",
+							"font": "Arial;13;0",
+							"left": 744,
+							"top": 624,
+							"width": 160.18798828125,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAFrl2uYq6apqg8="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFrlsIZE6CZEvw=",
+							"_parent": {
+								"$ref": "AAAAAAFrll3a+puViC8="
+							},
+							"model": {
+								"$ref": "AAAAAAFrlsIZE6CXVKE="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFrlsIZE6Cabvc=",
+									"_parent": {
+										"$ref": "AAAAAAFrlsIZE6CZEvw="
+									},
+									"fillColor": "#ff7f00",
+									"font": "Arial;13;0",
+									"left": 1122,
+									"top": 458,
+									"width": 136.8046875,
+									"height": 13,
+									"text": "PaymentChargeEvent",
+									"wordWrap": true
+								}
+							],
+							"fillColor": "#ff7f00",
+							"font": "Arial;13;0",
+							"left": 1112,
+							"top": 448,
+							"width": 156.8046875,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAFrlsIZE6Cabvc="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFrnD78aIukxbM=",
+							"_parent": {
+								"$ref": "AAAAAAFrll3a+puViC8="
+							},
+							"model": {
+								"$ref": "AAAAAAFrnD78aIuimuI="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFrnD78aIulaxk=",
+									"_parent": {
+										"$ref": "AAAAAAFrnD78aIukxbM="
+									},
+									"fillColor": "#ffdf82",
+									"font": "Arial;13;0",
+									"left": 722,
+									"top": 722,
+									"width": 197,
+									"height": 13,
+									"text": "PaymentTransactionCompleted",
+									"wordWrap": true
+								}
+							],
+							"fillColor": "#ffdf82",
+							"font": "Arial;13;0",
+							"left": 712,
+							"top": 712,
+							"width": 217,
+							"height": 104,
+							"nameLabel": {
+								"$ref": "AAAAAAFrnD78aIulaxk="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFrnEDIiYu/1pU=",
+							"_parent": {
+								"$ref": "AAAAAAFrll3a+puViC8="
+							},
+							"model": {
+								"$ref": "AAAAAAFrnEDIiYu9CLo="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFrnEDIiYvA0pI=",
+									"_parent": {
+										"$ref": "AAAAAAFrnEDIiYu/1pU="
+									},
+									"model": {
+										"$ref": "AAAAAAFrnEDIiYu9CLo="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 845,
+									"top": 677,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFrnEDIiYu/1pU="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFrnD78aIukxbM="
+							},
+							"tail": {
+								"$ref": "AAAAAAFrl2uYq6ao8QE="
+							},
+							"lineStyle": 2,
+							"points": "831:656;831:712",
+							"nameLabel": {
+								"$ref": "AAAAAAFrnEDIiYvA0pI="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFrnEDrUIvIb+Y=",
+							"_parent": {
+								"$ref": "AAAAAAFrll3a+puViC8="
+							},
+							"model": {
+								"$ref": "AAAAAAFrnEDrUIvGLJA="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFrnEDrUIvJNtM=",
+									"_parent": {
+										"$ref": "AAAAAAFrnEDrUIvIb+Y="
+									},
+									"model": {
+										"$ref": "AAAAAAFrnEDrUIvGLJA="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 1008,
+									"top": 819,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFrnEDrUIvIb+Y="
+									},
+									"edgePosition": 1
+								}
+							],
+							"lineColor": "#00ff00",
+							"fillColor": "#38ff38",
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFrlsIlUaChqqA="
+							},
+							"tail": {
+								"$ref": "AAAAAAFrnD78aIukxbM="
+							},
+							"lineStyle": 2,
+							"points": "840:815;840:840;1176:840;1176:736",
+							"nameLabel": {
+								"$ref": "AAAAAAFrnEDrUIvJNtM="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFrnEU8hIvWFhc=",
+							"_parent": {
+								"$ref": "AAAAAAFrll3a+puViC8="
+							},
+							"model": {
+								"$ref": "AAAAAAFrnEU8hIvUcFQ="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFrnEU8hIvXYpI=",
+									"_parent": {
+										"$ref": "AAAAAAFrnEU8hIvWFhc="
+									},
+									"font": "Arial;13;0",
+									"left": 418,
+									"top": 258,
+									"width": 174.890625,
+									"height": 13,
+									"text": "PaymentChargeCreatedEvent",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 408,
+							"top": 248,
+							"width": 194.890625,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAFrnEU8hIvXYpI="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFrnEWbKIvi4Ps=",
+							"_parent": {
+								"$ref": "AAAAAAFrll3a+puViC8="
+							},
+							"model": {
+								"$ref": "AAAAAAFrnEWbKIvgFrw="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFrnEWbKIvj6a8=",
+									"_parent": {
+										"$ref": "AAAAAAFrnEWbKIvi4Ps="
+									},
+									"font": "Arial;13;0",
+									"left": 642,
+									"top": 258,
+									"width": 141.63525390625,
+									"height": 13,
+									"text": "PaymentChargeDelayed",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 632,
+							"top": 248,
+							"width": 161.63525390625,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAFrnEWbKIvj6a8="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFrnEWfP4vqsnY=",
+							"_parent": {
+								"$ref": "AAAAAAFrll3a+puViC8="
+							},
+							"model": {
+								"$ref": "AAAAAAFrnEWfP4vouzg="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFrnEWfP4vrqB4=",
+									"_parent": {
+										"$ref": "AAAAAAFrnEWfP4vqsnY="
+									},
+									"font": "Arial;13;0",
+									"left": 850,
+									"top": 258,
+									"width": 157.50439453125,
+									"height": 13,
+									"text": "PaymentChargeComfirmed",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 840,
+							"top": 248,
+							"width": 177.50439453125,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAFrnEWfP4vrqB4="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFrnEWmKIvyLNI=",
+							"_parent": {
+								"$ref": "AAAAAAFrll3a+puViC8="
+							},
+							"model": {
+								"$ref": "AAAAAAFrnEWmJ4vwI6I="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFrnEWmKIvzGuE=",
+									"_parent": {
+										"$ref": "AAAAAAFrnEWmKIvyLNI="
+									},
+									"font": "Arial;13;0",
+									"left": 1074,
+									"top": 250,
+									"width": 129.34619140625,
+									"height": 13,
+									"text": "PaymentChargeFailed",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 1064,
+							"top": 240,
+							"width": 149.34619140625,
+							"height": 40,
+							"nameLabel": {
+								"$ref": "AAAAAAFrnEWmKIvzGuE="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFrnEgcaowuWsE=",
+							"_parent": {
+								"$ref": "AAAAAAFrll3a+puViC8="
+							},
+							"model": {
+								"$ref": "AAAAAAFrnEgcaowsXHM="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFrnEgcaowvS5k=",
+									"_parent": {
+										"$ref": "AAAAAAFrnEgcaowuWsE="
+									},
+									"model": {
+										"$ref": "AAAAAAFrnEgcaowsXHM="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 816,
+									"top": 243,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFrnEgcaowuWsE="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFrnEWfP4vqsnY="
+							},
+							"tail": {
+								"$ref": "AAAAAAFrnEWbKIvi4Ps="
+							},
+							"lineStyle": 2,
+							"points": "793:264;840:264",
+							"nameLabel": {
+								"$ref": "AAAAAAFrnEgcaowvS5k="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFrnE50hox0HAI=",
+							"_parent": {
+								"$ref": "AAAAAAFrll3a+puViC8="
+							},
+							"model": {
+								"$ref": "AAAAAAFrnE50hoxy8A0="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFrnE50hox1VWI=",
+									"_parent": {
+										"$ref": "AAAAAAFrnE50hox0HAI="
+									},
+									"fillColor": "#ff7f00",
+									"font": "Arial;13;0",
+									"left": 754,
+									"top": 802,
+									"width": 127.181640625,
+									"height": 13,
+									"text": "PaymentChargeEvent",
+									"wordWrap": true
+								}
+							],
+							"fillColor": "#ff7f00",
+							"font": "Arial;13;0",
+							"left": 744,
+							"top": 792,
+							"width": 147.181640625,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAFrnE50hox1VWI="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFrnDb+FotCLsw=",
+							"_parent": {
+								"$ref": "AAAAAAFrll3a+puViC8="
+							},
+							"model": {
+								"$ref": "AAAAAAFrnDb+FotAnrg="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFrnDb+FotDKtk=",
+									"_parent": {
+										"$ref": "AAAAAAFrnDb+FotCLsw="
+									},
+									"fillColor": "#00d600",
+									"font": "Arial;13;0",
+									"left": 410,
+									"top": 642,
+									"width": 140.18798828125,
+									"height": 13,
+									"text": "PaymentChargeListener",
+									"wordWrap": true
+								}
+							],
+							"fillColor": "#00d600",
+							"font": "Arial;13;0",
+							"left": 400,
+							"top": 632,
+							"width": 160.18798828125,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAFrnDb+FotDKtk="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFrnE+CdoyA0+M=",
+							"_parent": {
+								"$ref": "AAAAAAFrll3a+puViC8="
+							},
+							"model": {
+								"$ref": "AAAAAAFrnE+CdYx+l2U="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFrnE+Cd4yBFXM=",
+									"_parent": {
+										"$ref": "AAAAAAFrnE+CdoyA0+M="
+									},
+									"model": {
+										"$ref": "AAAAAAFrnE+CdYx+l2U="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 815,
+									"top": 273,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFrnE+CdoyA0+M="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFrnEWbKIvi4Ps="
+							},
+							"tail": {
+								"$ref": "AAAAAAFrnEWfP4vqsnY="
+							},
+							"lineStyle": 2,
+							"points": "840:264;793:264",
+							"nameLabel": {
+								"$ref": "AAAAAAFrnE+Cd4yBFXM="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFrlmSwWZwMTeg=",
+					"_parent": {
+						"$ref": "AAAAAAFrll3a+puUuc4="
+					},
+					"name": "SendDerbitAlertSmsNotification"
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFrlmVfjpwgQYw=",
+					"_parent": {
+						"$ref": "AAAAAAFrll3a+puUuc4="
+					},
+					"name": "SendCreditAlertEmailNotification"
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFrlnRGkZ1Frck=",
+					"_parent": {
+						"$ref": "AAAAAAFrll3a+puUuc4="
+					},
+					"name": "SendPaymentPendingNotification"
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFrloxOWZ6qjXc=",
+					"_parent": {
+						"$ref": "AAAAAAFrll3a+puUuc4="
+					},
+					"name": "CIBankPaymentGateway",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFrnCvCbYp05zA=",
+							"_parent": {
+								"$ref": "AAAAAAFrloxOWZ6qjXc="
+							},
+							"source": {
+								"$ref": "AAAAAAFrloxOWZ6qjXc="
+							},
+							"target": {
+								"$ref": "AAAAAAFrl2cBZKZxiXk="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFrnCvNNYp9efA=",
+							"_parent": {
+								"$ref": "AAAAAAFrloxOWZ6qjXc="
+							},
+							"source": {
+								"$ref": "AAAAAAFrloxOWZ6qjXc="
+							},
+							"target": {
+								"$ref": "AAAAAAFrlpKSNZ8sqEQ="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFrnCva1YqPGwo=",
+							"_parent": {
+								"$ref": "AAAAAAFrloxOWZ6qjXc="
+							},
+							"source": {
+								"$ref": "AAAAAAFrloxOWZ6qjXc="
+							},
+							"target": {
+								"$ref": "AAAAAAFrlqdnIp/c404="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFrlpKSNZ8sqEQ=",
+					"_parent": {
+						"$ref": "AAAAAAFrll3a+puUuc4="
+					},
+					"name": "PaymentChargeCompleted",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFrlspy8aD3veM=",
+							"_parent": {
+								"$ref": "AAAAAAFrlpKSNZ8sqEQ="
+							},
+							"source": {
+								"$ref": "AAAAAAFrlpKSNZ8sqEQ="
+							},
+							"target": {
+								"$ref": "AAAAAAFrlp7G/J/O5ws="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFrnC1CcorGi5Y=",
+							"_parent": {
+								"$ref": "AAAAAAFrlpKSNZ8sqEQ="
+							},
+							"source": {
+								"$ref": "AAAAAAFrlpKSNZ8sqEQ="
+							},
+							"target": {
+								"$ref": "AAAAAAFrlvy79KRFNOY="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFrlpjNZp+VvQs=",
+					"_parent": {
+						"$ref": "AAAAAAFrll3a+puUuc4="
+					},
+					"name": "PaymentChargeEvent"
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFrlp7G/J/O5ws=",
+					"_parent": {
+						"$ref": "AAAAAAFrll3a+puUuc4="
+					},
+					"name": "PaymentNotification"
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFrlqdnIp/c404=",
+					"_parent": {
+						"$ref": "AAAAAAFrll3a+puUuc4="
+					},
+					"name": "PaymentChargeFailed",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFrnDq1q4toT1s=",
+							"_parent": {
+								"$ref": "AAAAAAFrlqdnIp/c404="
+							},
+							"source": {
+								"$ref": "AAAAAAFrlqdnIp/c404="
+							},
+							"target": {
+								"$ref": "AAAAAAFrl3cNtqb2ucE="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFrlsINO6CPJmM=",
+					"_parent": {
+						"$ref": "AAAAAAFrll3a+puUuc4="
+					},
+					"name": "PaymentChargeEvent"
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFrlsIZE6CXVKE=",
+					"_parent": {
+						"$ref": "AAAAAAFrll3a+puUuc4="
+					},
+					"name": "PaymentChargeEvent"
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFrlsIlUaCfILY=",
+					"_parent": {
+						"$ref": "AAAAAAFrll3a+puUuc4="
+					},
+					"name": "SendPaymentCompletedNotification"
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFrlvy79KRFNOY=",
+					"_parent": {
+						"$ref": "AAAAAAFrll3a+puUuc4="
+					},
+					"name": "CIBankPaymentProcessor"
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFrlwAACKRiClk=",
+					"_parent": {
+						"$ref": "AAAAAAFrll3a+puUuc4="
+					},
+					"name": "CIBANK PAYMENT PROCESSOR SYSTEM DESYGN"
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFrl2cBZKZxiXk=",
+					"_parent": {
+						"$ref": "AAAAAAFrll3a+puUuc4="
+					},
+					"name": "CryptoPaymentPayloadCreated",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFrnDeGrotOTxg=",
+							"_parent": {
+								"$ref": "AAAAAAFrl2cBZKZxiXk="
+							},
+							"source": {
+								"$ref": "AAAAAAFrl2cBZKZxiXk="
+							},
+							"target": {
+								"$ref": "AAAAAAFrnDbNzIs24yo="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFrl2uYq6am+jI=",
+					"_parent": {
+						"$ref": "AAAAAAFrll3a+puUuc4="
+					},
+					"name": "PaymentChargeListener",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFrnEDIiYu9CLo=",
+							"_parent": {
+								"$ref": "AAAAAAFrl2uYq6am+jI="
+							},
+							"source": {
+								"$ref": "AAAAAAFrl2uYq6am+jI="
+							},
+							"target": {
+								"$ref": "AAAAAAFrnD78aIuimuI="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFrl3cNtqb2ucE=",
+					"_parent": {
+						"$ref": "AAAAAAFrll3a+puUuc4="
+					},
+					"name": "SendPaymentFailedNotification"
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFrmIufk6nQ+rc=",
+					"_parent": {
+						"$ref": "AAAAAAFrll3a+puUuc4="
+					},
+					"name": "COINBASE ADAPTER"
+				},
+				{
+					"_type": "FCDecision",
+					"_id": "AAAAAAFrmKONd6q/t6s=",
+					"_parent": {
+						"$ref": "AAAAAAFrll3a+puUuc4="
+					},
+					"name": "Confirmed OR Delayed"
+				},
+				{
+					"_type": "FCDecision",
+					"_id": "AAAAAAFrnCxywoqdftw=",
+					"_parent": {
+						"$ref": "AAAAAAFrll3a+puUuc4="
+					},
+					"name": "Decision1"
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFrnC3cpYri+94=",
+					"_parent": {
+						"$ref": "AAAAAAFrll3a+puUuc4="
+					},
+					"name": "ProcessPaymentTransaction"
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFrnDbNzIs24yo=",
+					"_parent": {
+						"$ref": "AAAAAAFrll3a+puUuc4="
+					},
+					"name": "CreatePaymentTransaction",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFrnDr8XYt64+8=",
+							"_parent": {
+								"$ref": "AAAAAAFrnDbNzIs24yo="
+							},
+							"source": {
+								"$ref": "AAAAAAFrnDbNzIs24yo="
+							},
+							"target": {
+								"$ref": "AAAAAAFrlnRGkZ1Frck="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFrnDb+FotAnrg=",
+					"_parent": {
+						"$ref": "AAAAAAFrll3a+puUuc4="
+					},
+					"name": "PaymentChargeListener"
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFrnD78aIuimuI=",
+					"_parent": {
+						"$ref": "AAAAAAFrll3a+puUuc4="
+					},
+					"name": "PaymentTransactionCompleted",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFrnEDrUIvGLJA=",
+							"_parent": {
+								"$ref": "AAAAAAFrnD78aIuimuI="
+							},
+							"source": {
+								"$ref": "AAAAAAFrnD78aIuimuI="
+							},
+							"target": {
+								"$ref": "AAAAAAFrlsIlUaCfILY="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFrnEU8hIvUcFQ=",
+					"_parent": {
+						"$ref": "AAAAAAFrll3a+puUuc4="
+					},
+					"name": "PaymentChargeCreatedEvent"
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFrnEWbKIvgFrw=",
+					"_parent": {
+						"$ref": "AAAAAAFrll3a+puUuc4="
+					},
+					"name": "PaymentChargeDelayed",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFrnEgcaowsXHM=",
+							"_parent": {
+								"$ref": "AAAAAAFrnEWbKIvgFrw="
+							},
+							"source": {
+								"$ref": "AAAAAAFrnEWbKIvgFrw="
+							},
+							"target": {
+								"$ref": "AAAAAAFrnEWfP4vouzg="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFrnEWfP4vouzg=",
+					"_parent": {
+						"$ref": "AAAAAAFrll3a+puUuc4="
+					},
+					"name": "PaymentChargeComfirmed",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFrnE+CdYx+l2U=",
+							"_parent": {
+								"$ref": "AAAAAAFrnEWfP4vouzg="
+							},
+							"source": {
+								"$ref": "AAAAAAFrnEWfP4vouzg="
+							},
+							"target": {
+								"$ref": "AAAAAAFrnEWbKIvgFrw="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFrnEWmJ4vwI6I=",
+					"_parent": {
+						"$ref": "AAAAAAFrll3a+puUuc4="
+					},
+					"name": "PaymentChargeFailed"
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFrnE50hoxy8A0=",
+					"_parent": {
+						"$ref": "AAAAAAFrll3a+puUuc4="
+					},
+					"name": "PaymentChargeEvent"
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFrnFdPaoyRqEU=",
+					"_parent": {
+						"$ref": "AAAAAAFrll3a+puUuc4="
+					},
+					"name": "Process1"
+				}
+			]
+		}
+	]
+}

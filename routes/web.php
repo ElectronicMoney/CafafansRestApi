@@ -14,10 +14,10 @@
 /**
  * Auhentication routes
  */
-$router->group(['prefix' => 'v1'], function () use ($router) {
-    $router->post('/login', 'Authentication\AuthController@login');
-    $router->post('/logout', 'Authentication\AuthController@logout');
-    $router->post('/register', 'Authentication\AuthController@register');
+$router->group(['namespace' => 'Authentication', 'prefix' => 'v1'], function () use ($router) {
+    $router->post('/login', 'AuthController@login');
+    $router->post('/logout', 'AuthController@logout');
+    $router->post('/register', 'AuthController@register');
 });
 
 /**
